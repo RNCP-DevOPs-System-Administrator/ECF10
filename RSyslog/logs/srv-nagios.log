@@ -1,0 +1,245 @@
+Jul 16 09:47:53 srv-nagios rsyslogd: [origin software="rsyslogd" swVersion="8.2102.0" x-pid="80190" x-info="https://www.rsyslog.com"] exiting on signal 15.
+Jul 16 09:47:53 srv-nagios systemd[1]: Stopping System Logging Service...
+Jul 16 09:47:53 srv-nagios systemd[1]: rsyslog.service: Succeeded.
+Jul 16 09:47:53 srv-nagios systemd[1]: Stopped System Logging Service.
+Jul 16 09:47:53 srv-nagios systemd[1]: Starting System Logging Service...
+Jul 16 09:47:53 srv-nagios systemd[1]: Started System Logging Service.
+Jul 16 09:47:53 srv-nagios sudo: pam_unix(sudo:session): session closed for user root
+Jul 16 09:47:53 srv-nagios rsyslogd: imuxsock: Acquired UNIX socket '/run/systemd/journal/syslog' (fd 3) from systemd.  [v8.2102.0]
+Jul 16 09:47:53 srv-nagios rsyslogd: [origin software="rsyslogd" swVersion="8.2102.0" x-pid="80574" x-info="https://www.rsyslog.com"] start
+Jul 16 09:49:12 srv-nagios sshd[80590]: Connection closed by 127.0.0.1 port 47144 [preauth]
+Jul 16 09:51:55 srv-nagios nagios: Auto-save of retention data completed successfully.
+Jul 16 09:54:11 srv-nagios sshd[80617]: Connection closed by 127.0.0.1 port 41108 [preauth]
+Jul 16 09:55:54 srv-nagios sshd[78774]: Received disconnect from 10.0.2.2 port 52808:11: disconnected by user
+Jul 16 09:55:54 srv-nagios sshd[78774]: Disconnected from user vagrant 10.0.2.2 port 52808
+Jul 16 09:55:54 srv-nagios sshd[78752]: pam_unix(sshd:session): session closed for user vagrant
+Jul 16 09:55:54 srv-nagios systemd-logind[305]: Session 72 logged out. Waiting for processes to exit.
+Jul 16 09:55:54 srv-nagios systemd[1]: session-72.scope: Succeeded.
+Jul 16 09:55:54 srv-nagios systemd[1]: session-72.scope: Consumed 3.362s CPU time.
+Jul 16 09:55:54 srv-nagios systemd-logind[305]: Removed session 72.
+Jul 16 09:56:04 srv-nagios systemd[78755]: Stopped target Main User Target.
+Jul 16 09:56:04 srv-nagios systemd[78755]: Stopped target Basic System.
+Jul 16 09:56:04 srv-nagios systemd[78755]: Stopped target Paths.
+Jul 16 09:56:04 srv-nagios systemd[78755]: Stopped target Sockets.
+Jul 16 09:56:04 srv-nagios systemd[78755]: Stopped target Timers.
+Jul 16 09:56:04 srv-nagios systemd[78755]: dirmngr.socket: Succeeded.
+Jul 16 09:56:04 srv-nagios systemd[78755]: Closed GnuPG network certificate management daemon.
+Jul 16 09:56:04 srv-nagios systemd[78755]: gpg-agent-browser.socket: Succeeded.
+Jul 16 09:56:04 srv-nagios systemd[78755]: Closed GnuPG cryptographic agent and passphrase cache (access for web browsers).
+Jul 16 09:56:04 srv-nagios systemd[78755]: gpg-agent-extra.socket: Succeeded.
+Jul 16 09:56:04 srv-nagios systemd[78755]: Closed GnuPG cryptographic agent and passphrase cache (restricted).
+Jul 16 09:56:04 srv-nagios systemd[78755]: gpg-agent-ssh.socket: Succeeded.
+Jul 16 09:56:04 srv-nagios systemd[78755]: Closed GnuPG cryptographic agent (ssh-agent emulation).
+Jul 16 09:56:04 srv-nagios systemd[78755]: gpg-agent.socket: Succeeded.
+Jul 16 09:56:04 srv-nagios systemd[78755]: Closed GnuPG cryptographic agent and passphrase cache.
+Jul 16 09:56:04 srv-nagios systemd[1]: Stopping User Manager for UID 1000...
+Jul 16 09:56:04 srv-nagios systemd[78755]: Removed slice User Application Slice.
+Jul 16 09:56:04 srv-nagios systemd[78755]: Reached target Shutdown.
+Jul 16 09:56:04 srv-nagios systemd[78755]: systemd-exit.service: Succeeded.
+Jul 16 09:56:04 srv-nagios systemd[78755]: Finished Exit the Session.
+Jul 16 09:56:04 srv-nagios systemd[78755]: Reached target Exit the Session.
+Jul 16 09:56:04 srv-nagios systemd: pam_unix(systemd-user:session): session closed for user vagrant
+Jul 16 09:56:04 srv-nagios systemd[1]: user@1000.service: Succeeded.
+Jul 16 09:56:04 srv-nagios systemd[1]: Stopped User Manager for UID 1000.
+Jul 16 09:56:04 srv-nagios systemd[1]: Stopping User Runtime Directory /run/user/1000...
+Jul 16 09:56:04 srv-nagios systemd[1]: run-user-1000.mount: Succeeded.
+Jul 16 09:56:04 srv-nagios systemd[1]: user-runtime-dir@1000.service: Succeeded.
+Jul 16 09:56:04 srv-nagios systemd[1]: Stopped User Runtime Directory /run/user/1000.
+Jul 16 09:56:04 srv-nagios systemd[1]: Removed slice User Slice of UID 1000.
+Jul 16 09:56:04 srv-nagios systemd[1]: user-1000.slice: Consumed 3.722s CPU time.
+Jul 16 09:56:18 srv-nagios nagios: SERVICE FLAPPING ALERT: srv-ad;AD DS;STOPPED; Service appears to have stopped flapping (3.8% change < 5.0% threshold)
+Jul 16 09:56:18 srv-nagios nagios: SERVICE NOTIFICATION: nagiosadmin;srv-ad;AD DS;OK;notify-service-by-email;NTDS: Started
+Jul 16 09:57:15 srv-nagios kernel: [57996.118691] e1000: eth0 NIC Link is Down
+Jul 16 09:57:16 srv-nagios kernel: [57997.095189] e1000: eth1 NIC Link is Down
+Jul 16 09:57:20 srv-nagios kernel: [58000.837463] e1000: eth1 NIC Link is Up 1000 Mbps Full Duplex, Flow Control: RX
+Jul 16 09:57:21 srv-nagios kernel: [58001.767956] e1000: eth0 NIC Link is Up 1000 Mbps Full Duplex, Flow Control: RX
+Jul 16 09:57:23 srv-nagios sshd[80662]: Accepted publickey for vagrant from 10.0.2.2 port 62086 ssh2: ED25519 SHA256:eEm/nkNAAHq/dIoIXdTf+5xvsxj8n6tnLsRulROUoqU
+Jul 16 09:57:23 srv-nagios sshd[80662]: pam_unix(sshd:session): session opened for user vagrant(uid=1000) by (uid=0)
+Jul 16 09:57:23 srv-nagios systemd[1]: Created slice User Slice of UID 1000.
+Jul 16 09:57:23 srv-nagios systemd[1]: Starting User Runtime Directory /run/user/1000...
+Jul 16 09:57:23 srv-nagios systemd-logind[305]: New session 83 of user vagrant.
+Jul 16 09:57:24 srv-nagios systemd[1]: Finished User Runtime Directory /run/user/1000.
+Jul 16 09:57:24 srv-nagios systemd[1]: Starting User Manager for UID 1000...
+Jul 16 09:57:24 srv-nagios systemd: pam_unix(systemd-user:session): session opened for user vagrant(uid=1000) by (uid=0)
+Jul 16 09:57:24 srv-nagios systemd[80666]: Queued start job for default target Main User Target.
+Jul 16 09:57:24 srv-nagios systemd[80666]: Created slice User Application Slice.
+Jul 16 09:57:24 srv-nagios systemd[80666]: Reached target Paths.
+Jul 16 09:57:24 srv-nagios systemd[80666]: Reached target Timers.
+Jul 16 09:57:24 srv-nagios systemd[80666]: Listening on GnuPG network certificate management daemon.
+Jul 16 09:57:24 srv-nagios systemd[80666]: Listening on GnuPG cryptographic agent and passphrase cache (access for web browsers).
+Jul 16 09:57:24 srv-nagios systemd[80666]: Listening on GnuPG cryptographic agent and passphrase cache (restricted).
+Jul 16 09:57:24 srv-nagios systemd[80666]: Listening on GnuPG cryptographic agent (ssh-agent emulation).
+Jul 16 09:57:24 srv-nagios systemd[80666]: Listening on GnuPG cryptographic agent and passphrase cache.
+Jul 16 09:57:24 srv-nagios systemd[80666]: Reached target Sockets.
+Jul 16 09:57:24 srv-nagios systemd[80666]: Reached target Basic System.
+Jul 16 09:57:24 srv-nagios systemd[1]: Started User Manager for UID 1000.
+Jul 16 09:57:24 srv-nagios systemd[80666]: Reached target Main User Target.
+Jul 16 09:57:24 srv-nagios systemd[80666]: Startup finished in 500ms.
+Jul 16 09:57:24 srv-nagios systemd[1]: Started Session 83 of user vagrant.
+Jul 16 09:57:30 srv-nagios sshd[80662]: pam_unix(sshd:session): session closed for user vagrant
+Jul 16 09:57:30 srv-nagios systemd-logind[305]: Session 83 logged out. Waiting for processes to exit.
+Jul 16 09:57:30 srv-nagios systemd[1]: session-83.scope: Succeeded.
+Jul 16 09:57:30 srv-nagios systemd-logind[305]: Removed session 83.
+Jul 16 09:57:41 srv-nagios systemd[80666]: Stopped target Main User Target.
+Jul 16 09:57:41 srv-nagios systemd[80666]: Stopped target Basic System.
+Jul 16 09:57:41 srv-nagios systemd[80666]: Stopped target Paths.
+Jul 16 09:57:41 srv-nagios systemd[80666]: Stopped target Sockets.
+Jul 16 09:57:41 srv-nagios systemd[80666]: Stopped target Timers.
+Jul 16 09:57:41 srv-nagios systemd[80666]: dirmngr.socket: Succeeded.
+Jul 16 09:57:41 srv-nagios systemd[80666]: Closed GnuPG network certificate management daemon.
+Jul 16 09:57:41 srv-nagios systemd[80666]: gpg-agent-browser.socket: Succeeded.
+Jul 16 09:57:41 srv-nagios systemd[80666]: Closed GnuPG cryptographic agent and passphrase cache (access for web browsers).
+Jul 16 09:57:41 srv-nagios systemd[80666]: gpg-agent-extra.socket: Succeeded.
+Jul 16 09:57:41 srv-nagios systemd[80666]: Closed GnuPG cryptographic agent and passphrase cache (restricted).
+Jul 16 09:57:41 srv-nagios systemd[1]: Stopping User Manager for UID 1000...
+Jul 16 09:57:41 srv-nagios systemd[80666]: gpg-agent-ssh.socket: Succeeded.
+Jul 16 09:57:41 srv-nagios systemd[80666]: Closed GnuPG cryptographic agent (ssh-agent emulation).
+Jul 16 09:57:41 srv-nagios systemd[80666]: gpg-agent.socket: Succeeded.
+Jul 16 09:57:41 srv-nagios systemd[80666]: Closed GnuPG cryptographic agent and passphrase cache.
+Jul 16 09:57:41 srv-nagios systemd[80666]: Removed slice User Application Slice.
+Jul 16 09:57:41 srv-nagios systemd[80666]: Reached target Shutdown.
+Jul 16 09:57:41 srv-nagios systemd[80666]: systemd-exit.service: Succeeded.
+Jul 16 09:57:41 srv-nagios systemd[80666]: Finished Exit the Session.
+Jul 16 09:57:41 srv-nagios systemd[80666]: Reached target Exit the Session.
+Jul 16 09:57:41 srv-nagios systemd: pam_unix(systemd-user:session): session closed for user vagrant
+Jul 16 09:57:41 srv-nagios systemd[1]: user@1000.service: Succeeded.
+Jul 16 09:57:41 srv-nagios systemd[1]: Stopped User Manager for UID 1000.
+Jul 16 09:57:41 srv-nagios systemd[1]: Stopping User Runtime Directory /run/user/1000...
+Jul 16 09:57:41 srv-nagios systemd[1]: run-user-1000.mount: Succeeded.
+Jul 16 09:57:41 srv-nagios systemd[1]: user-runtime-dir@1000.service: Succeeded.
+Jul 16 09:57:41 srv-nagios systemd[1]: Stopped User Runtime Directory /run/user/1000.
+Jul 16 09:57:41 srv-nagios systemd[1]: Removed slice User Slice of UID 1000.
+Jul 16 09:59:11 srv-nagios sshd[80699]: Connection closed by 127.0.0.1 port 49008 [preauth]
+Jul 16 10:02:39 srv-nagios sshd[80815]: Accepted publickey for vagrant from 10.0.2.2 port 62192 ssh2: ED25519 SHA256:eEm/nkNAAHq/dIoIXdTf+5xvsxj8n6tnLsRulROUoqU
+Jul 16 10:02:39 srv-nagios sshd[80815]: pam_unix(sshd:session): session opened for user vagrant(uid=1000) by (uid=0)
+Jul 16 10:02:39 srv-nagios systemd-logind[305]: New session 85 of user vagrant.
+Jul 16 10:02:39 srv-nagios systemd[1]: Created slice User Slice of UID 1000.
+Jul 16 10:02:39 srv-nagios systemd[1]: Starting User Runtime Directory /run/user/1000...
+Jul 16 10:02:39 srv-nagios systemd[1]: Finished User Runtime Directory /run/user/1000.
+Jul 16 10:02:39 srv-nagios systemd[1]: Starting User Manager for UID 1000...
+Jul 16 10:02:39 srv-nagios systemd: pam_unix(systemd-user:session): session opened for user vagrant(uid=1000) by (uid=0)
+Jul 16 10:02:39 srv-nagios systemd[80818]: Queued start job for default target Main User Target.
+Jul 16 10:02:39 srv-nagios systemd[80818]: Created slice User Application Slice.
+Jul 16 10:02:39 srv-nagios systemd[80818]: Reached target Paths.
+Jul 16 10:02:39 srv-nagios systemd[80818]: Reached target Timers.
+Jul 16 10:02:39 srv-nagios systemd[80818]: Listening on GnuPG network certificate management daemon.
+Jul 16 10:02:39 srv-nagios systemd[80818]: Listening on GnuPG cryptographic agent and passphrase cache (access for web browsers).
+Jul 16 10:02:39 srv-nagios systemd[80818]: Listening on GnuPG cryptographic agent and passphrase cache (restricted).
+Jul 16 10:02:39 srv-nagios systemd[80818]: Listening on GnuPG cryptographic agent (ssh-agent emulation).
+Jul 16 10:02:39 srv-nagios systemd[80818]: Listening on GnuPG cryptographic agent and passphrase cache.
+Jul 16 10:02:39 srv-nagios systemd[80818]: Reached target Sockets.
+Jul 16 10:02:39 srv-nagios systemd[80818]: Reached target Basic System.
+Jul 16 10:02:39 srv-nagios systemd[1]: Started User Manager for UID 1000.
+Jul 16 10:02:39 srv-nagios systemd[80818]: Reached target Main User Target.
+Jul 16 10:02:39 srv-nagios systemd[80818]: Startup finished in 342ms.
+Jul 16 10:02:39 srv-nagios systemd[1]: Started Session 85 of user vagrant.
+Jul 16 10:03:36 srv-nagios chronyd[338]: Source 92.222.227.225 replaced with 2a02:2178:1000:201::10 (2.debian.pool.ntp.org)
+Jul 16 10:04:11 srv-nagios sshd[80847]: Connection closed by 127.0.0.1 port 33964 [preauth]
+Jul 16 10:04:25 srv-nagios nagios: SERVICE FLAPPING ALERT: srv-ad;DHCP Service;STOPPED; Service appears to have stopped flapping (3.8% change < 5.0% threshold)
+Jul 16 10:04:25 srv-nagios nagios: SERVICE NOTIFICATION: nagiosadmin;srv-ad;DHCP Service;OK;notify-service-by-email;DHCPServer: Started
+Jul 16 10:05:26 srv-nagios nagios: SERVICE ALERT: srv-glpi;CPU Usage;CRITICAL;SOFT;1;CRITICAL - load average: 1.33, 0.57, 0.24
+Jul 16 10:05:33 srv-nagios nagios: SERVICE FLAPPING ALERT: srv-ad;DNS Service;STOPPED; Service appears to have stopped flapping (3.8% change < 5.0% threshold)
+Jul 16 10:05:33 srv-nagios nagios: SERVICE NOTIFICATION: nagiosadmin;srv-ad;DNS Service;OK;notify-service-by-email;DNS: Started
+Jul 16 10:07:26 srv-nagios nagios: SERVICE ALERT: srv-glpi;CPU Usage;CRITICAL;SOFT;2;CRITICAL - load average: 0.23, 0.40, 0.21
+Jul 16 10:07:53 srv-nagios nagios: SERVICE FLAPPING ALERT: srv-ad;Memory Usage;STOPPED; Service appears to have stopped flapping (3.8% change < 5.0% threshold)
+Jul 16 10:07:53 srv-nagios nagios: SERVICE NOTIFICATION: nagiosadmin;srv-ad;Memory Usage;CRITICAL;notify-service-by-email;Memory usage: total:3181.72 MB - used: 1866.65 MB (59%) - free: 1315.07 MB (41%)
+Jul 16 10:09:02 srv-nagios CRON[80906]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Jul 16 10:09:02 srv-nagios CRON[80907]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && if [ ! -d /run/systemd/system ]; then /usr/lib/php/sessionclean; fi)
+Jul 16 10:09:02 srv-nagios CRON[80906]: pam_unix(cron:session): session closed for user root
+Jul 16 10:09:02 srv-nagios systemd[1]: Starting Clean php session files...
+Jul 16 10:09:05 srv-nagios systemd[1]: phpsessionclean.service: Succeeded.
+Jul 16 10:09:05 srv-nagios systemd[1]: Finished Clean php session files.
+Jul 16 10:09:05 srv-nagios systemd[1]: phpsessionclean.service: Consumed 2.238s CPU time.
+Jul 16 10:09:11 srv-nagios sshd[80962]: Connection closed by 127.0.0.1 port 40612 [preauth]
+Jul 16 10:09:26 srv-nagios nagios: SERVICE ALERT: srv-glpi;CPU Usage;CRITICAL;HARD;3;CRITICAL - load average: 0.03, 0.28, 0.18
+Jul 16 10:10:10 srv-nagios chronyd[338]: Can't synchronise: no majority
+Jul 16 10:11:53 srv-nagios chronyd[338]: Selected source 37.59.63.125 (2.debian.pool.ntp.org)
+Jul 16 10:11:53 srv-nagios chronyd[338]: System clock wrong by 34143.399358 seconds
+Jul 16 10:13:01 srv-nagios CRON[80986]: pam_unix(cron:session): session opened for user daemon(uid=1) by (uid=0)
+Jul 16 10:13:01 srv-nagios CRON[80987]: (daemon) CMD (test -x /usr/bin/debsecan && /usr/bin/debsecan --cron)
+Jul 16 10:13:03 srv-nagios CRON[80986]: pam_unix(cron:session): session closed for user daemon
+Jul 16 10:14:11 srv-nagios sshd[80991]: Connection closed by 127.0.0.1 port 35902 [preauth]
+Jul 16 10:17:01 srv-nagios CRON[81013]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Jul 16 10:17:01 srv-nagios CRON[81014]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Jul 16 10:17:01 srv-nagios CRON[81013]: pam_unix(cron:session): session closed for user root
+Jul 16 10:19:11 srv-nagios sshd[81023]: Connection closed by 127.0.0.1 port 46816 [preauth]
+Jul 16 10:19:26 srv-nagios nagios: SERVICE ALERT: srv-glpi;CPU Usage;WARNING;HARD;3;WARNING - load average: 0.00, 0.04, 0.08
+Jul 16 10:24:11 srv-nagios sshd[81047]: Connection closed by 127.0.0.1 port 36020 [preauth]
+Jul 16 10:27:10 srv-nagios chronyd[338]: Selected source 79.143.250.33 (2.debian.pool.ntp.org)
+Jul 16 10:29:11 srv-nagios sshd[81078]: Connection closed by 127.0.0.1 port 58142 [preauth]
+Jul 16 10:32:26 srv-nagios nagios: SERVICE FLAPPING ALERT: srv-ad;Disk Usage;STOPPED; Service appears to have stopped flapping (3.8% change < 5.0% threshold)
+Jul 16 10:32:26 srv-nagios nagios: SERVICE NOTIFICATION: nagiosadmin;srv-ad;Disk Usage;OK;notify-service-by-email;C:\ - total: 125.41 Gb - used: 13.20 Gb (11%) - free 112.20 Gb (89%)
+Jul 16 10:34:11 srv-nagios sshd[81205]: Connection closed by 127.0.0.1 port 41828 [preauth]
+Jul 16 10:34:47 srv-nagios chronyd[338]: Source 2a02:2178:1000:201::10 replaced with 2001:41d0:8:7a7d::1 (2.debian.pool.ntp.org)
+Jul 16 10:36:13 srv-nagios sudo:  vagrant : TTY=pts/0 ; PWD=/var/log/remote ; USER=root ; COMMAND=/usr/bin/cat srv-glpi.log
+Jul 16 10:36:13 srv-nagios sudo: pam_unix(sudo:session): session opened for user root(uid=0) by vagrant(uid=1000)
+Jul 16 10:36:13 srv-nagios sudo: pam_unix(sudo:session): session closed for user root
+Jul 16 10:36:38 srv-nagios sudo:  vagrant : TTY=pts/0 ; PWD=/var/log/remote ; USER=root ; COMMAND=/usr/bin/cat srv-nagios.log
+Jul 16 10:36:38 srv-nagios sudo: pam_unix(sudo:session): session opened for user root(uid=0) by vagrant(uid=1000)
+Jul 16 10:36:38 srv-nagios sudo: pam_unix(sudo:session): session closed for user root
+Jul 16 10:39:01 srv-nagios CRON[81246]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Jul 16 10:39:01 srv-nagios CRON[81247]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && if [ ! -d /run/systemd/system ]; then /usr/lib/php/sessionclean; fi)
+Jul 16 10:39:01 srv-nagios systemd[1]: Starting Clean php session files...
+Jul 16 10:39:01 srv-nagios CRON[81246]: pam_unix(cron:session): session closed for user root
+Jul 16 10:39:02 srv-nagios systemd[1]: phpsessionclean.service: Succeeded.
+Jul 16 10:39:02 srv-nagios systemd[1]: Finished Clean php session files.
+Jul 16 10:39:11 srv-nagios sshd[81302]: Connection closed by 127.0.0.1 port 45258 [preauth]
+Jul 16 10:39:26 srv-nagios nagios: SERVICE ALERT: srv-glpi;CPU Usage;OK;HARD;1;OK - load average: 0.00, 0.01, 0.02
+Jul 16 10:44:13 srv-nagios sshd[81330]: Connection closed by 127.0.0.1 port 48514 [preauth]
+Jul 16 10:49:11 srv-nagios sshd[81359]: Connection closed by 127.0.0.1 port 46720 [preauth]
+Jul 16 10:49:27 srv-nagios nagios: SERVICE ALERT: srv-glpi;CPU Usage;CRITICAL;SOFT;1;CRITICAL - load average: 0.37, 0.30, 0.15
+Jul 16 10:51:28 srv-nagios nagios: SERVICE ALERT: srv-glpi;CPU Usage;WARNING;SOFT;2;WARNING - load average: 0.14, 0.22, 0.13
+Jul 16 10:51:55 srv-nagios nagios: Auto-save of retention data completed successfully.
+Jul 16 10:53:28 srv-nagios nagios: SERVICE ALERT: srv-glpi;CPU Usage;WARNING;HARD;3;WARNING - load average: 0.05, 0.17, 0.12
+Jul 16 10:54:11 srv-nagios sshd[81389]: Connection closed by 127.0.0.1 port 42432 [preauth]
+Jul 16 10:59:11 srv-nagios sshd[81419]: Connection closed by 127.0.0.1 port 51140 [preauth]
+Jul 16 11:04:11 srv-nagios sshd[81537]: Connection closed by 127.0.0.1 port 44656 [preauth]
+Jul 16 11:07:53 srv-nagios nagios: SERVICE NOTIFICATION: nagiosadmin;srv-ad;Memory Usage;CRITICAL;notify-service-by-email;Memory usage: total:3181.72 MB - used: 1810.15 MB (57%) - free: 1371.57 MB (43%)
+Jul 16 11:09:01 srv-nagios CRON[81575]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Jul 16 11:09:01 srv-nagios CRON[81576]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && if [ ! -d /run/systemd/system ]; then /usr/lib/php/sessionclean; fi)
+Jul 16 11:09:01 srv-nagios systemd[1]: Starting Clean php session files...
+Jul 16 11:09:01 srv-nagios CRON[81575]: pam_unix(cron:session): session closed for user root
+Jul 16 11:09:01 srv-nagios systemd[1]: phpsessionclean.service: Succeeded.
+Jul 16 11:09:01 srv-nagios systemd[1]: Finished Clean php session files.
+Jul 16 11:09:12 srv-nagios sshd[81632]: Connection closed by 127.0.0.1 port 45434 [preauth]
+Jul 16 11:13:01 srv-nagios CRON[81654]: pam_unix(cron:session): session opened for user daemon(uid=1) by (uid=0)
+Jul 16 11:13:01 srv-nagios CRON[81655]: (daemon) CMD (test -x /usr/bin/debsecan && /usr/bin/debsecan --cron)
+Jul 16 11:13:01 srv-nagios CRON[81654]: pam_unix(cron:session): session closed for user daemon
+Jul 16 11:14:11 srv-nagios sshd[81660]: Connection closed by 127.0.0.1 port 42642 [preauth]
+Jul 16 11:17:01 srv-nagios CRON[81684]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Jul 16 11:17:02 srv-nagios CRON[81685]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Jul 16 11:17:02 srv-nagios CRON[81684]: pam_unix(cron:session): session closed for user root
+Jul 16 11:19:11 srv-nagios sshd[81694]: Connection closed by 127.0.0.1 port 52918 [preauth]
+Jul 16 11:21:47 srv-nagios sudo:  vagrant : TTY=pts/0 ; PWD=/var/log/remote ; USER=root ; COMMAND=/usr/bin/cat srv-ad.entrepriseY.local.log
+Jul 16 11:21:47 srv-nagios sudo: pam_unix(sudo:session): session opened for user root(uid=0) by vagrant(uid=1000)
+Jul 16 11:21:47 srv-nagios sudo: pam_unix(sudo:session): session closed for user root
+Jul 16 11:24:11 srv-nagios sshd[81725]: Connection closed by 127.0.0.1 port 49528 [preauth]
+Jul 16 11:26:35 srv-nagios sudo:  vagrant : TTY=pts/0 ; PWD=/var/log/remote ; USER=root ; COMMAND=/usr/bin/rm srv-ad.entrepriseY.local.log
+Jul 16 11:26:35 srv-nagios sudo: pam_unix(sudo:session): session opened for user root(uid=0) by vagrant(uid=1000)
+Jul 16 11:26:35 srv-nagios sudo: pam_unix(sudo:session): session closed for user root
+Jul 16 11:29:11 srv-nagios sshd[81798]: Connection closed by 127.0.0.1 port 37744 [preauth]
+Jul 16 11:30:38 srv-nagios sudo:  vagrant : TTY=pts/0 ; PWD=/var/log/remote ; USER=root ; COMMAND=/usr/bin/systemctl restart rsyslog
+Jul 16 11:30:38 srv-nagios sudo: pam_unix(sudo:session): session opened for user root(uid=0) by vagrant(uid=1000)
+Jul 16 11:30:38 srv-nagios systemd[1]: Stopping System Logging Service...
+Jul 16 11:30:38 srv-nagios rsyslogd: [origin software="rsyslogd" swVersion="8.2102.0" x-pid="80574" x-info="https://www.rsyslog.com"] exiting on signal 15.
+Jul 16 11:30:38 srv-nagios systemd[1]: rsyslog.service: Succeeded.
+Jul 16 11:30:38 srv-nagios systemd[1]: Stopped System Logging Service.
+Jul 16 11:30:38 srv-nagios systemd[1]: rsyslog.service: Consumed 1.874s CPU time.
+Jul 16 11:30:38 srv-nagios systemd[1]: Starting System Logging Service...
+Jul 16 11:30:39 srv-nagios systemd[1]: Started System Logging Service.
+Jul 16 11:30:39 srv-nagios rsyslogd: imuxsock: Acquired UNIX socket '/run/systemd/journal/syslog' (fd 3) from systemd.  [v8.2102.0]
+Jul 16 11:30:39 srv-nagios rsyslogd: [origin software="rsyslogd" swVersion="8.2102.0" x-pid="81845" x-info="https://www.rsyslog.com"] start
+Jul 16 11:30:39 srv-nagios sudo: pam_unix(sudo:session): session closed for user root
+Jul 16 11:31:08 srv-nagios sudo:  vagrant : TTY=pts/0 ; PWD=/var/log/remote ; USER=root ; COMMAND=/usr/bin/cat srv-ad.entrepriseY.local.log
+Jul 16 11:31:08 srv-nagios sudo: pam_unix(sudo:session): session opened for user root(uid=0) by vagrant(uid=1000)
+Jul 16 11:31:08 srv-nagios sudo: pam_unix(sudo:session): session closed for user root
+Jul 16 11:32:01 srv-nagios sudo:  vagrant : TTY=pts/0 ; PWD=/var/log/remote ; USER=root ; COMMAND=/usr/bin/cat srv-glpi.log
+Jul 16 11:32:01 srv-nagios sudo: pam_unix(sudo:session): session opened for user root(uid=0) by vagrant(uid=1000)
+Jul 16 11:32:01 srv-nagios sudo: pam_unix(sudo:session): session closed for user root
+Jul 16 11:33:12 srv-nagios sudo:  vagrant : TTY=pts/0 ; PWD=/var/log/remote ; USER=root ; COMMAND=/usr/bin/cat srv-nagios.log
+Jul 16 11:33:12 srv-nagios sudo: pam_unix(sudo:session): session opened for user root(uid=0) by vagrant(uid=1000)
+Jul 16 11:33:12 srv-nagios sudo: pam_unix(sudo:session): session closed for user root
+Jul 16 11:33:28 srv-nagios nagios: SERVICE ALERT: srv-glpi;CPU Usage;OK;HARD;1;OK - load average: 0.00, 0.00, 0.01
+Jul 16 11:34:11 srv-nagios sshd[81985]: Connection closed by 127.0.0.1 port 33326 [preauth]
+Jul 16 11:37:42 srv-nagios sudo:  vagrant : TTY=pts/0 ; PWD=/var/log/remote ; USER=root ; COMMAND=/usr/bin/cp srv-ad.entrepriseY.local.log srv-glpi.log srv-nagios.log /vagrant_data
+Jul 16 11:37:42 srv-nagios sudo: pam_unix(sudo:session): session opened for user root(uid=0) by vagrant(uid=1000)

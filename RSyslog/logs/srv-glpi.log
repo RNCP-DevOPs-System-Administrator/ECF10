@@ -1,0 +1,291 @@
+Jul 16 22:17:01 srv-glpi CRON[31083]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Jul 16 22:17:01 srv-glpi CRON[31084]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Jul 16 22:17:01 srv-glpi rsyslogd: omfwd: remote server at 192.168.1.4:514 seems to have closed connection. This often happens when the remote peer (or an interim system like a load balancer or firewall) shuts down or aborts a connection. Rsyslog will re-open the connection if configured to do so (we saw a generic IO Error, which usually goes along with that behaviour). [v8.2208.0 try https://www.rsyslog.com/e/2027 ]
+Jul 16 22:17:01 srv-glpi rsyslogd: action 'action-7-builtin:omfwd' suspended (module 'builtin:omfwd'), retry 0. There should be messages before this one giving the reason for suspension. [v8.2208.0 try https://www.rsyslog.com/e/2007 ]
+Jul 16 22:17:01 srv-glpi rsyslogd: action 'action-7-builtin:omfwd' resumed (module 'builtin:omfwd') [v8.2208.0 try https://www.rsyslog.com/e/2359 ]
+Jul 16 22:17:01 srv-glpi CRON[31083]: pam_unix(cron:session): session closed for user root
+Jul 16 22:20:53 srv-glpi systemd[1]: Starting system activity accounting tool...
+Jul 16 22:20:53 srv-glpi systemd[1]: sysstat-collect.service: Deactivated successfully.
+Jul 16 22:20:53 srv-glpi systemd[1]: Finished system activity accounting tool.
+Jul 16 22:24:10 srv-glpi sshd[29887]: Received disconnect from 10.0.2.2 port 52809:11: disconnected by user
+Jul 16 22:24:10 srv-glpi sshd[29887]: Disconnected from user vagrant 10.0.2.2 port 52809
+Jul 16 22:24:10 srv-glpi sshd[29826]: pam_unix(sshd:session): session closed for user vagrant
+Jul 16 22:24:10 srv-glpi systemd-logind[671]: Session 241 logged out. Waiting for processes to exit.
+Jul 16 22:24:10 srv-glpi systemd[1]: session-241.scope: Deactivated successfully.
+Jul 16 22:24:10 srv-glpi systemd[1]: session-241.scope: Consumed 27.466s CPU time.
+Jul 16 22:24:10 srv-glpi systemd-logind[671]: Removed session 241.
+Jul 16 22:24:20 srv-glpi systemd[1]: Stopping User Manager for UID 1000...
+Jul 16 22:24:20 srv-glpi systemd[29829]: Activating special unit Exit the Session...
+Jul 16 22:24:20 srv-glpi systemd[29829]: Stopped target Main User Target.
+Jul 16 22:24:20 srv-glpi systemd[29829]: Stopped target Basic System.
+Jul 16 22:24:20 srv-glpi systemd[29829]: Stopped target Paths.
+Jul 16 22:24:20 srv-glpi systemd[29829]: Stopped target Sockets.
+Jul 16 22:24:20 srv-glpi systemd[29829]: Stopped target Timers.
+Jul 16 22:24:20 srv-glpi systemd[29829]: Closed D-Bus User Message Bus Socket.
+Jul 16 22:24:20 srv-glpi systemd[29829]: Closed GnuPG network certificate management daemon.
+Jul 16 22:24:20 srv-glpi systemd[29829]: Closed GnuPG cryptographic agent and passphrase cache (access for web browsers).
+Jul 16 22:24:20 srv-glpi systemd[29829]: Closed GnuPG cryptographic agent and passphrase cache (restricted).
+Jul 16 22:24:20 srv-glpi systemd[29829]: Closed GnuPG cryptographic agent (ssh-agent emulation).
+Jul 16 22:24:20 srv-glpi systemd[29829]: Closed GnuPG cryptographic agent and passphrase cache.
+Jul 16 22:24:20 srv-glpi systemd[29829]: Closed debconf communication socket.
+Jul 16 22:24:20 srv-glpi systemd[29829]: Closed REST API socket for snapd user session agent.
+Jul 16 22:24:20 srv-glpi systemd[29829]: Removed slice User Application Slice.
+Jul 16 22:24:20 srv-glpi systemd[29829]: Reached target Shutdown.
+Jul 16 22:24:20 srv-glpi systemd[29829]: Finished Exit the Session.
+Jul 16 22:24:20 srv-glpi systemd[29829]: Reached target Exit the Session.
+Jul 16 22:24:20 srv-glpi systemd[1]: user@1000.service: Deactivated successfully.
+Jul 16 22:24:20 srv-glpi systemd[1]: Stopped User Manager for UID 1000.
+Jul 16 22:24:20 srv-glpi systemd[1]: Stopping User Runtime Directory /run/user/1000...
+Jul 16 22:24:20 srv-glpi systemd[1]: run-user-1000.mount: Deactivated successfully.
+Jul 16 22:24:20 srv-glpi systemd[1]: user-runtime-dir@1000.service: Deactivated successfully.
+Jul 16 22:24:20 srv-glpi systemd[1]: Stopped User Runtime Directory /run/user/1000.
+Jul 16 22:24:20 srv-glpi systemd[1]: Removed slice User Slice of UID 1000.
+Jul 16 22:24:20 srv-glpi systemd[1]: user-1000.slice: Consumed 28.043s CPU time.
+Jul 16 22:25:01 srv-glpi CRON[31123]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Jul 16 22:25:01 srv-glpi CRON[31124]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Jul 16 22:25:01 srv-glpi CRON[31123]: pam_unix(cron:session): session closed for user root
+Jul 16 22:25:58 srv-glpi kernel: [98100.505677] 22:25:58.133670 control  Session 0 is about to close ...
+Jul 16 22:25:58 srv-glpi kernel: [98100.556604] 22:25:58.186239 control  Stopping all guest processes ...
+Jul 16 22:25:58 srv-glpi kernel: [98100.571401] 22:25:58.199224 control  Closing all guest files ...
+Jul 16 22:25:58 srv-glpi kernel: [98100.602936] 22:25:58.231650 control  vbglR3GuestCtrlDetectPeekGetCancelSupport: Supported (#1)
+Jul 16 22:25:59 srv-glpi ifplugd(eth0)[710]: Link beat lost.
+Jul 16 22:25:59 srv-glpi kernel: [98102.128208] e1000: eth0 NIC Link is Down
+Jul 16 22:25:59 srv-glpi kernel: [98102.134607] e1000: eth1 NIC Link is Down
+Jul 16 22:25:59 srv-glpi kernel: [98102.144497] e1000 0000:00:08.0 eth1: Reset adapter
+Jul 16 22:26:00 srv-glpi systemd-networkd[1895]: eth0: Lost carrier
+Jul 16 22:26:00 srv-glpi dbus-daemon[644]: [system] Activating via systemd: service name='org.freedesktop.hostname1' unit='dbus-org.freedesktop.hostname1.service' requested by ':1.21' (uid=101 pid=1895 comm="/lib/systemd/systemd-networkd" label="unconfined")
+Jul 16 22:26:00 srv-glpi systemd-networkd[1895]: eth0: DHCP lease lost
+Jul 16 22:26:00 srv-glpi systemd-networkd[1895]: eth0: DHCPv6 lease lost
+Jul 16 22:26:00 srv-glpi systemd[1]: Starting Hostname Service...
+Jul 16 22:26:00 srv-glpi systemd-networkd[1895]: eth1: Lost carrier
+Jul 16 22:26:00 srv-glpi systemd-networkd[1895]: eth1: DHCPv6 lease lost
+Jul 16 22:26:01 srv-glpi dbus-daemon[644]: [system] Successfully activated service 'org.freedesktop.hostname1'
+Jul 16 22:26:01 srv-glpi systemd[1]: Started Hostname Service.
+Jul 16 22:26:01 srv-glpi systemd-hostnamed[31129]: Hostname set to <srv-glpi> (static)
+Jul 17 07:55:13 srv-glpi systemd-resolved[564]: Clock change detected. Flushing caches.
+Jul 17 07:55:13 srv-glpi kernel: [98104.719681] 07:55:13.483576 timesync vgsvcTimeSyncWorker: Radical host time change: 34 161 152 000 000ns (HostNow=1 752 738 913 466 000 000
+Jul 17 07:55:13 srv-glpi kernel: [98104.799003] e1000: eth1 NIC Link is Up 1000 Mbps Full Duplex, Flow Control: RX
+Jul 17 07:55:13 srv-glpi systemd[1]: Starting Daily dpkg database backup service...
+Jul 17 07:55:13 srv-glpi systemd-networkd[1895]: eth1: Gained carrier
+Jul 17 07:55:13 srv-glpi systemd-networkd[1895]: eth1: found matching network '/run/systemd/network/10-netplan-eth1.network', based on potentially unpredictable interface name.
+Jul 17 07:55:13 srv-glpi systemd[1]: Starting Clean php session files...
+Jul 17 07:55:13 srv-glpi systemd[1]: Starting system activity accounting tool...
+Jul 17 07:55:13 srv-glpi ifplugd(eth0)[710]: Executing '/etc/ifplugd/ifplugd.action eth0 down'.
+Jul 17 07:55:13 srv-glpi systemd[1]: Starting Generate a daily summary of process accounting...
+Jul 17 07:55:13 srv-glpi systemd[1]: Rotate log files was skipped because of a failed condition check (ConditionACPower=true).
+Jul 17 07:55:13 srv-glpi systemd[1]: Daily man-db regeneration was skipped because of a failed condition check (ConditionACPower=true).
+Jul 17 07:55:14 srv-glpi ifplugd(eth0)[710]: client: ifdown: unknown interface eth0
+Jul 17 07:55:14 srv-glpi systemd[1]: sysstat-collect.service: Deactivated successfully.
+Jul 17 07:55:14 srv-glpi ifplugd(eth0)[710]: client: run-parts: /etc/ifplugd/action.d//ifupdown exited with return code 1
+Jul 17 07:55:14 srv-glpi systemd[1]: Finished system activity accounting tool.
+Jul 17 07:55:14 srv-glpi ifplugd(eth0)[710]: Program execution failed, return value is 1.
+Jul 17 07:55:14 srv-glpi ifplugd(eth0)[710]: Link beat detected.
+Jul 17 07:55:14 srv-glpi ifplugd(eth0)[710]: Executing '/etc/ifplugd/ifplugd.action eth0 up'.
+Jul 17 07:55:14 srv-glpi kernel: [98106.167871] e1000: eth0 NIC Link is Up 1000 Mbps Full Duplex, Flow Control: RX
+Jul 17 07:55:14 srv-glpi systemd-networkd[1895]: eth0: Gained carrier
+Jul 17 07:55:14 srv-glpi systemd-networkd[1895]: eth0: found matching network '/run/systemd/network/10-netplan-eth0.network', based on potentially unpredictable interface name.
+Jul 17 07:55:15 srv-glpi ifplugd(eth0)[710]: client: ifup: unknown interface eth0
+Jul 17 07:55:15 srv-glpi ifplugd(eth0)[710]: client: run-parts: /etc/ifplugd/action.d//ifupdown exited with return code 1
+Jul 17 07:55:15 srv-glpi ifplugd(eth0)[710]: Program execution failed, return value is 1.
+Jul 17 07:55:15 srv-glpi systemd-networkd[1895]: eth0: DHCPv4 address 10.0.2.15/24, gateway 10.0.2.2 acquired from 10.0.2.2
+Jul 17 07:55:15 srv-glpi systemd[1]: dpkg-db-backup.service: Deactivated successfully.
+Jul 17 07:55:15 srv-glpi systemd[1]: Finished Daily dpkg database backup service.
+Jul 17 07:55:16 srv-glpi systemd[1]: sysstat-summary.service: Deactivated successfully.
+Jul 17 07:55:16 srv-glpi systemd[1]: Finished Generate a daily summary of process accounting.
+Jul 17 07:55:16 srv-glpi sshd[31162]: Accepted publickey for vagrant from 10.0.2.2 port 62108 ssh2: ED25519 SHA256:uUGR9xy51BJ12wqpH88omXq2/3ooqhAz1vN/4rDP6w0
+Jul 17 07:55:16 srv-glpi sshd[31162]: pam_unix(sshd:session): session opened for user vagrant(uid=1000) by (uid=0)
+Jul 17 07:55:16 srv-glpi systemd[1]: Created slice User Slice of UID 1000.
+Jul 17 07:55:16 srv-glpi systemd[1]: Starting User Runtime Directory /run/user/1000...
+Jul 17 07:55:16 srv-glpi systemd-logind[671]: New session 266 of user vagrant.
+Jul 17 07:55:17 srv-glpi systemd[1]: Finished User Runtime Directory /run/user/1000.
+Jul 17 07:55:17 srv-glpi systemd[1]: Starting User Manager for UID 1000...
+Jul 17 07:55:17 srv-glpi systemd: pam_unix(systemd-user:session): session opened for user vagrant(uid=1000) by (uid=0)
+Jul 17 07:55:18 srv-glpi systemd[1]: phpsessionclean.service: Deactivated successfully.
+Jul 17 07:55:18 srv-glpi systemd[1]: Finished Clean php session files.
+Jul 17 07:55:18 srv-glpi systemd[1]: phpsessionclean.service: Consumed 1.563s CPU time.
+Jul 17 07:55:18 srv-glpi systemd[31172]: Queued start job for default target Main User Target.
+Jul 17 07:55:18 srv-glpi systemd[31172]: Created slice User Application Slice.
+Jul 17 07:55:18 srv-glpi systemd[31172]: Reached target Paths.
+Jul 17 07:55:18 srv-glpi systemd[31172]: Reached target Timers.
+Jul 17 07:55:18 srv-glpi systemd[31172]: Starting D-Bus User Message Bus Socket...
+Jul 17 07:55:18 srv-glpi systemd[31172]: Listening on GnuPG network certificate management daemon.
+Jul 17 07:55:18 srv-glpi systemd[31172]: Listening on GnuPG cryptographic agent and passphrase cache (access for web browsers).
+Jul 17 07:55:18 srv-glpi systemd[31172]: Listening on GnuPG cryptographic agent and passphrase cache (restricted).
+Jul 17 07:55:18 srv-glpi systemd[31172]: Listening on GnuPG cryptographic agent (ssh-agent emulation).
+Jul 17 07:55:18 srv-glpi systemd[31172]: Listening on GnuPG cryptographic agent and passphrase cache.
+Jul 17 07:55:18 srv-glpi systemd[31172]: Listening on debconf communication socket.
+Jul 17 07:55:18 srv-glpi systemd[31172]: Listening on REST API socket for snapd user session agent.
+Jul 17 07:55:18 srv-glpi systemd[31172]: Listening on D-Bus User Message Bus Socket.
+Jul 17 07:55:18 srv-glpi systemd[31172]: Reached target Sockets.
+Jul 17 07:55:18 srv-glpi systemd[31172]: Reached target Basic System.
+Jul 17 07:55:19 srv-glpi systemd[1]: Started User Manager for UID 1000.
+Jul 17 07:55:19 srv-glpi systemd[31172]: Reached target Main User Target.
+Jul 17 07:55:19 srv-glpi systemd[31172]: Startup finished in 1.572s.
+Jul 17 07:55:19 srv-glpi systemd[1]: Started Session 266 of User vagrant.
+Jul 17 07:55:22 srv-glpi sshd[31232]: Accepted publickey for vagrant from 10.0.2.2 port 62111 ssh2: ED25519 SHA256:uUGR9xy51BJ12wqpH88omXq2/3ooqhAz1vN/4rDP6w0
+Jul 17 07:55:22 srv-glpi sshd[31232]: pam_unix(sshd:session): session opened for user vagrant(uid=1000) by (uid=0)
+Jul 17 07:55:22 srv-glpi systemd-logind[671]: New session 268 of user vagrant.
+Jul 17 07:55:22 srv-glpi systemd[1]: Started Session 268 of User vagrant.
+Jul 17 07:55:25 srv-glpi sshd[31162]: pam_env(sshd:session): deprecated reading of user environment enabled
+Jul 17 07:55:27 srv-glpi sshd[31232]: pam_env(sshd:session): deprecated reading of user environment enabled
+Jul 17 07:55:28 srv-glpi sshd[31362]: Accepted publickey for vagrant from 10.0.2.2 port 62116 ssh2: ED25519 SHA256:uUGR9xy51BJ12wqpH88omXq2/3ooqhAz1vN/4rDP6w0
+Jul 17 07:55:28 srv-glpi sshd[31362]: pam_unix(sshd:session): session opened for user vagrant(uid=1000) by (uid=0)
+Jul 17 07:55:28 srv-glpi systemd-logind[671]: New session 269 of user vagrant.
+Jul 17 07:55:28 srv-glpi systemd[1]: Started Session 269 of User vagrant.
+Jul 17 07:55:29 srv-glpi sshd[31362]: pam_env(sshd:session): deprecated reading of user environment enabled
+Jul 17 07:55:31 srv-glpi sshd[31162]: pam_unix(sshd:session): session closed for user vagrant
+Jul 17 07:55:31 srv-glpi sshd[31232]: pam_unix(sshd:session): session closed for user vagrant
+Jul 17 07:55:31 srv-glpi sshd[31362]: pam_unix(sshd:session): session closed for user vagrant
+Jul 17 07:55:31 srv-glpi systemd[1]: session-266.scope: Deactivated successfully.
+Jul 17 07:55:31 srv-glpi systemd[1]: session-266.scope: Consumed 4.420s CPU time.
+Jul 17 07:55:31 srv-glpi systemd[1]: session-268.scope: Deactivated successfully.
+Jul 17 07:55:31 srv-glpi systemd[1]: session-268.scope: Consumed 3.168s CPU time.
+Jul 17 07:55:31 srv-glpi systemd-logind[671]: Session 266 logged out. Waiting for processes to exit.
+Jul 17 07:55:31 srv-glpi systemd-logind[671]: Session 268 logged out. Waiting for processes to exit.
+Jul 17 07:55:31 srv-glpi systemd[1]: session-269.scope: Deactivated successfully.
+Jul 17 07:55:31 srv-glpi systemd-logind[671]: Session 269 logged out. Waiting for processes to exit.
+Jul 17 07:55:31 srv-glpi systemd-logind[671]: Removed session 266.
+Jul 17 07:55:31 srv-glpi systemd-logind[671]: Removed session 268.
+Jul 17 07:55:31 srv-glpi systemd-logind[671]: Removed session 269.
+Jul 17 07:55:41 srv-glpi systemd[31172]: Activating special unit Exit the Session...
+Jul 17 07:55:41 srv-glpi systemd[1]: Stopping User Manager for UID 1000...
+Jul 17 07:55:41 srv-glpi systemd[31172]: Stopped target Main User Target.
+Jul 17 07:55:41 srv-glpi systemd[31172]: Stopped target Basic System.
+Jul 17 07:55:41 srv-glpi systemd[31172]: Stopped target Paths.
+Jul 17 07:55:41 srv-glpi systemd[31172]: Stopped target Sockets.
+Jul 17 07:55:41 srv-glpi systemd[31172]: Stopped target Timers.
+Jul 17 07:55:41 srv-glpi systemd[31172]: Closed D-Bus User Message Bus Socket.
+Jul 17 07:55:41 srv-glpi systemd[31172]: Closed GnuPG network certificate management daemon.
+Jul 17 07:55:41 srv-glpi systemd[31172]: Closed GnuPG cryptographic agent and passphrase cache (access for web browsers).
+Jul 17 07:55:41 srv-glpi systemd[31172]: Closed GnuPG cryptographic agent and passphrase cache (restricted).
+Jul 17 07:55:41 srv-glpi systemd[31172]: Closed GnuPG cryptographic agent (ssh-agent emulation).
+Jul 17 07:55:41 srv-glpi systemd[31172]: Closed GnuPG cryptographic agent and passphrase cache.
+Jul 17 07:55:41 srv-glpi systemd[31172]: Closed debconf communication socket.
+Jul 17 07:55:41 srv-glpi systemd[31172]: Closed REST API socket for snapd user session agent.
+Jul 17 07:55:41 srv-glpi systemd[31172]: Removed slice User Application Slice.
+Jul 17 07:55:41 srv-glpi systemd[31172]: Reached target Shutdown.
+Jul 17 07:55:41 srv-glpi systemd[31172]: Finished Exit the Session.
+Jul 17 07:55:41 srv-glpi systemd[31172]: Reached target Exit the Session.
+Jul 17 07:55:41 srv-glpi systemd[1]: user@1000.service: Deactivated successfully.
+Jul 17 07:55:41 srv-glpi systemd[1]: Stopped User Manager for UID 1000.
+Jul 17 07:55:41 srv-glpi systemd[1]: Stopping User Runtime Directory /run/user/1000...
+Jul 17 07:55:41 srv-glpi systemd[1]: run-user-1000.mount: Deactivated successfully.
+Jul 17 07:55:41 srv-glpi systemd[1]: user-runtime-dir@1000.service: Deactivated successfully.
+Jul 17 07:55:41 srv-glpi systemd[1]: Stopped User Runtime Directory /run/user/1000.
+Jul 17 07:55:41 srv-glpi systemd[1]: Removed slice User Slice of UID 1000.
+Jul 17 07:55:41 srv-glpi systemd[1]: user-1000.slice: Consumed 9.037s CPU time.
+Jul 17 07:55:45 srv-glpi systemd[1]: systemd-hostnamed.service: Deactivated successfully.
+Jul 17 07:59:17 srv-glpi sshd[31432]: Accepted publickey for vagrant from 10.0.2.2 port 62195 ssh2: ED25519 SHA256:uUGR9xy51BJ12wqpH88omXq2/3ooqhAz1vN/4rDP6w0
+Jul 17 07:59:17 srv-glpi sshd[31432]: pam_unix(sshd:session): session opened for user vagrant(uid=1000) by (uid=0)
+Jul 17 07:59:17 srv-glpi systemd[1]: Created slice User Slice of UID 1000.
+Jul 17 07:59:17 srv-glpi systemd[1]: Starting User Runtime Directory /run/user/1000...
+Jul 17 07:59:17 srv-glpi systemd-logind[671]: New session 270 of user vagrant.
+Jul 17 07:59:17 srv-glpi systemd[1]: Finished User Runtime Directory /run/user/1000.
+Jul 17 07:59:17 srv-glpi systemd[1]: Starting User Manager for UID 1000...
+Jul 17 07:59:17 srv-glpi systemd: pam_unix(systemd-user:session): session opened for user vagrant(uid=1000) by (uid=0)
+Jul 17 07:59:18 srv-glpi systemd[31435]: Queued start job for default target Main User Target.
+Jul 17 07:59:18 srv-glpi systemd[31435]: Created slice User Application Slice.
+Jul 17 07:59:18 srv-glpi systemd[31435]: Reached target Paths.
+Jul 17 07:59:18 srv-glpi systemd[31435]: Reached target Timers.
+Jul 17 07:59:18 srv-glpi systemd[31435]: Starting D-Bus User Message Bus Socket...
+Jul 17 07:59:18 srv-glpi systemd[31435]: Listening on GnuPG network certificate management daemon.
+Jul 17 07:59:18 srv-glpi systemd[31435]: Listening on GnuPG cryptographic agent and passphrase cache (access for web browsers).
+Jul 17 07:59:18 srv-glpi systemd[31435]: Listening on GnuPG cryptographic agent and passphrase cache (restricted).
+Jul 17 07:59:18 srv-glpi systemd[31435]: Listening on GnuPG cryptographic agent (ssh-agent emulation).
+Jul 17 07:59:18 srv-glpi systemd[31435]: Listening on GnuPG cryptographic agent and passphrase cache.
+Jul 17 07:59:18 srv-glpi systemd[31435]: Listening on debconf communication socket.
+Jul 17 07:59:18 srv-glpi systemd[31435]: Listening on REST API socket for snapd user session agent.
+Jul 17 07:59:18 srv-glpi systemd[31435]: Listening on D-Bus User Message Bus Socket.
+Jul 17 07:59:18 srv-glpi systemd[31435]: Reached target Sockets.
+Jul 17 07:59:18 srv-glpi systemd[31435]: Reached target Basic System.
+Jul 17 07:59:18 srv-glpi systemd[1]: Started User Manager for UID 1000.
+Jul 17 07:59:18 srv-glpi systemd[31435]: Reached target Main User Target.
+Jul 17 07:59:18 srv-glpi systemd[31435]: Startup finished in 597ms.
+Jul 17 07:59:18 srv-glpi systemd[1]: Started Session 270 of User vagrant.
+Jul 17 07:59:22 srv-glpi sshd[31432]: pam_env(sshd:session): deprecated reading of user environment enabled
+Jul 17 08:00:09 srv-glpi systemd[1]: Starting system activity accounting tool...
+Jul 17 08:00:09 srv-glpi systemd[1]: sysstat-collect.service: Deactivated successfully.
+Jul 17 08:00:09 srv-glpi systemd[1]: Finished system activity accounting tool.
+Jul 17 08:00:40 srv-glpi sudo:  vagrant : TTY=pts/0 ; PWD=/etc ; USER=root ; COMMAND=/usr/bin/nano rsyslog.conf
+Jul 17 08:00:40 srv-glpi sudo: pam_unix(sudo:session): session opened for user root(uid=0) by vagrant(uid=1000)
+Jul 17 08:05:01 srv-glpi CRON[31575]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Jul 17 08:05:01 srv-glpi CRON[31576]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Jul 17 08:05:01 srv-glpi CRON[31575]: pam_unix(cron:session): session closed for user root
+Jul 17 08:09:01 srv-glpi CRON[31602]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Jul 17 08:09:01 srv-glpi CRON[31603]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && if [ ! -d /run/systemd/system ]; then /usr/lib/php/sessionclean; fi)
+Jul 17 08:09:01 srv-glpi CRON[31602]: pam_unix(cron:session): session closed for user root
+Jul 17 08:09:04 srv-glpi systemd[1]: Starting Clean php session files...
+Jul 17 08:09:05 srv-glpi systemd[1]: phpsessionclean.service: Deactivated successfully.
+Jul 17 08:09:05 srv-glpi systemd[1]: Finished Clean php session files.
+Jul 17 08:10:04 srv-glpi systemd[1]: Starting system activity accounting tool...
+Jul 17 08:10:04 srv-glpi systemd[1]: sysstat-collect.service: Deactivated successfully.
+Jul 17 08:10:04 srv-glpi systemd[1]: Finished system activity accounting tool.
+Jul 17 08:15:01 srv-glpi CRON[31670]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Jul 17 08:15:01 srv-glpi CRON[31671]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Jul 17 08:15:01 srv-glpi CRON[31670]: pam_unix(cron:session): session closed for user root
+Jul 17 08:17:01 srv-glpi CRON[31708]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Jul 17 08:17:01 srv-glpi CRON[31709]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Jul 17 08:17:02 srv-glpi CRON[31708]: pam_unix(cron:session): session closed for user root
+Jul 17 08:20:04 srv-glpi systemd[1]: Starting system activity accounting tool...
+Jul 17 08:20:04 srv-glpi systemd[1]: sysstat-collect.service: Deactivated successfully.
+Jul 17 08:20:04 srv-glpi systemd[1]: Finished system activity accounting tool.
+Jul 17 08:25:01 srv-glpi CRON[31733]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Jul 17 08:25:01 srv-glpi CRON[31734]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Jul 17 08:25:01 srv-glpi CRON[31733]: pam_unix(cron:session): session closed for user root
+Jul 17 08:30:04 srv-glpi systemd[1]: Starting system activity accounting tool...
+Jul 17 08:30:04 srv-glpi systemd[1]: sysstat-collect.service: Deactivated successfully.
+Jul 17 08:30:04 srv-glpi systemd[1]: Finished system activity accounting tool.
+Jul 17 08:35:01 srv-glpi CRON[31782]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Jul 17 08:35:01 srv-glpi CRON[31783]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Jul 17 08:35:01 srv-glpi CRON[31782]: pam_unix(cron:session): session closed for user root
+Jul 17 08:39:01 srv-glpi CRON[31794]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Jul 17 08:39:01 srv-glpi CRON[31795]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && if [ ! -d /run/systemd/system ]; then /usr/lib/php/sessionclean; fi)
+Jul 17 08:39:01 srv-glpi CRON[31794]: pam_unix(cron:session): session closed for user root
+Jul 17 08:39:04 srv-glpi systemd[1]: Starting Clean php session files...
+Jul 17 08:39:08 srv-glpi systemd[1]: phpsessionclean.service: Deactivated successfully.
+Jul 17 08:39:09 srv-glpi systemd[1]: Finished Clean php session files.
+Jul 17 08:39:09 srv-glpi systemd[1]: phpsessionclean.service: Consumed 4.157s CPU time.
+Jul 17 08:40:04 srv-glpi systemd[1]: Starting system activity accounting tool...
+Jul 17 08:40:04 srv-glpi systemd[1]: sysstat-collect.service: Deactivated successfully.
+Jul 17 08:40:04 srv-glpi systemd[1]: Finished system activity accounting tool.
+Jul 17 08:45:01 srv-glpi CRON[31878]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Jul 17 08:45:01 srv-glpi CRON[31879]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Jul 17 08:45:01 srv-glpi CRON[31878]: pam_unix(cron:session): session closed for user root
+Jul 17 08:50:04 srv-glpi systemd[1]: Starting system activity accounting tool...
+Jul 17 08:50:04 srv-glpi systemd[1]: sysstat-collect.service: Deactivated successfully.
+Jul 17 08:50:04 srv-glpi systemd[1]: Finished system activity accounting tool.
+Jul 17 08:55:02 srv-glpi CRON[31915]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Jul 17 08:55:02 srv-glpi CRON[31916]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Jul 17 08:55:02 srv-glpi CRON[31915]: pam_unix(cron:session): session closed for user root
+Jul 17 09:00:04 srv-glpi systemd[1]: Starting system activity accounting tool...
+Jul 17 09:00:04 srv-glpi systemd[1]: sysstat-collect.service: Deactivated successfully.
+Jul 17 09:00:04 srv-glpi systemd[1]: Finished system activity accounting tool.
+Jul 17 09:05:01 srv-glpi CRON[31964]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Jul 17 09:05:01 srv-glpi CRON[31965]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Jul 17 09:05:01 srv-glpi CRON[31964]: pam_unix(cron:session): session closed for user root
+Jul 17 09:09:01 srv-glpi CRON[31970]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Jul 17 09:09:01 srv-glpi CRON[31971]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && if [ ! -d /run/systemd/system ]; then /usr/lib/php/sessionclean; fi)
+Jul 17 09:09:01 srv-glpi CRON[31970]: pam_unix(cron:session): session closed for user root
+Jul 17 09:09:04 srv-glpi systemd[1]: Starting Clean php session files...
+Jul 17 09:09:06 srv-glpi systemd[1]: phpsessionclean.service: Deactivated successfully.
+Jul 17 09:09:06 srv-glpi systemd[1]: Finished Clean php session files.
+Jul 17 09:09:06 srv-glpi systemd[1]: phpsessionclean.service: Consumed 1.810s CPU time.
+Jul 17 09:10:00 srv-glpi systemd[1]: Starting system activity accounting tool...
+Jul 17 09:10:00 srv-glpi systemd[1]: sysstat-collect.service: Deactivated successfully.
+Jul 17 09:10:00 srv-glpi systemd[1]: Finished system activity accounting tool.
+Jul 17 09:15:01 srv-glpi CRON[32053]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Jul 17 09:15:01 srv-glpi CRON[32054]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Jul 17 09:15:01 srv-glpi CRON[32053]: pam_unix(cron:session): session closed for user root
+Jul 17 09:17:01 srv-glpi CRON[32058]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Jul 17 09:17:01 srv-glpi CRON[32059]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Jul 17 09:17:01 srv-glpi CRON[32058]: pam_unix(cron:session): session closed for user root
+Jul 17 09:20:03 srv-glpi systemd[1]: Starting system activity accounting tool...
+Jul 17 09:20:03 srv-glpi systemd[1]: sysstat-collect.service: Deactivated successfully.
+Jul 17 09:20:03 srv-glpi systemd[1]: Finished system activity accounting tool.
+Jul 17 09:23:19 srv-glpi snapd[19872]: storehelpers.go:916: cannot refresh: snap has no updates available: "core20", "core24", "lxd", "snapd"
+Jul 17 09:23:19 srv-glpi rsyslogd: omfwd: remote server at 192.168.1.4:514 seems to have closed connection. This often happens when the remote peer (or an interim system like a load balancer or firewall) shuts down or aborts a connection. Rsyslog will re-open the connection if configured to do so (we saw a generic IO Error, which usually goes along with that behaviour). [v8.2208.0 try https://www.rsyslog.com/e/2027 ]
+Jul 17 09:23:19 srv-glpi rsyslogd: action 'action-7-builtin:omfwd' suspended (module 'builtin:omfwd'), retry 0. There should be messages before this one giving the reason for suspension. [v8.2208.0 try https://www.rsyslog.com/e/2007 ]
+Jul 17 09:23:19 srv-glpi rsyslogd: action 'action-7-builtin:omfwd' resumed (module 'builtin:omfwd') [v8.2208.0 try https://www.rsyslog.com/e/2359 ]
+Jul 17 09:25:01 srv-glpi CRON[32095]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Jul 17 09:25:01 srv-glpi CRON[32096]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Jul 17 09:25:01 srv-glpi CRON[32095]: pam_unix(cron:session): session closed for user root

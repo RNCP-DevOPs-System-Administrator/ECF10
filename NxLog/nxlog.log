@@ -1,0 +1,31 @@
+2025-07-17 10:20:51 WARNING no functional input modules!
+2025-07-17 10:20:51 WARNING no routes defined!
+2025-07-17 10:20:52 INFO nxlog-ce-3.2.2329 started
+2025-07-17 10:43:04 WARNING stopping nxlog service
+2025-07-17 10:43:04 WARNING nxlog-ce received a termination request signal, exiting...
+2025-07-17 10:43:06 WARNING no functional input modules!
+2025-07-17 10:43:06 WARNING no routes defined!
+2025-07-17 10:43:06 INFO nxlog-ce-3.2.2329 started
+2025-07-17 10:54:34 WARNING stopping nxlog service
+2025-07-17 10:54:34 WARNING nxlog-ce received a termination request signal, exiting...
+2025-07-17 10:54:41 WARNING no functional input modules!
+2025-07-17 10:54:41 WARNING no routes defined!
+2025-07-17 10:54:42 INFO nxlog-ce-3.2.2329 started
+2025-07-17 11:04:44 WARNING stopping nxlog service
+2025-07-17 11:04:55 WARNING nxlog-ce received a termination request signal, exiting...
+2025-07-17 11:05:15 INFO connecting to 192.168.1.4:514
+2025-07-17 11:05:15 INFO nxlog-ce-3.2.2329 started
+2025-07-17 11:13:49 WARNING stopping nxlog service
+2025-07-17 11:13:50 WARNING nxlog-ce received a termination request signal, exiting...
+2025-07-17 11:16:32 INFO connecting to 192.168.1.4:514
+2025-07-17 11:16:32 INFO nxlog-ce-3.2.2329 started
+2025-07-17 11:18:17 WARNING stopping nxlog service
+2025-07-17 11:18:17 WARNING nxlog-ce received a termination request signal, exiting...
+2025-07-17 11:18:18 INFO connecting to 192.168.1.4:514
+2025-07-17 11:18:18 INFO nxlog-ce-3.2.2329 started
+2025-07-17 11:18:42 WARNING stopping nxlog service
+2025-07-17 11:18:42 WARNING nxlog-ce received a termination request signal, exiting...
+2025-07-17 11:18:43 INFO connecting to 192.168.1.4:514
+2025-07-17 11:18:43 INFO nxlog-ce-3.2.2329 started
+2025-07-17 11:19:21 INFO reconnecting in 1 seconds
+2025-07-17 11:19:22 INFO connecting to 192.168.1.4:514
